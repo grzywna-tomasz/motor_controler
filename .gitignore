@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Autogen not used in the project
+stm_autogen_files/Drivers/CMSIS/Core/
+stm_autogen_files/Drivers/CMSIS/DAP/
+stm_autogen_files/Drivers/CMSIS/Core_A/
+stm_autogen_files/Drivers/CMSIS/Device/ST/STM32F4xx/Source/
+stm_autogen_files/Drivers/CMSIS/DSP/
+stm_autogen_files/Drivers/CMSIS/NN/
+stm_autogen_files/Drivers/CMSIS/RTOS/
+stm_autogen_files/Drivers/CMSIS/RTOS2/
+stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.c
+stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_2.c
+stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c
+stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_5.c
