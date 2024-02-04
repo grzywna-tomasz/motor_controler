@@ -36,3 +36,5 @@ $(BUILD_DIR):
 
 clean:
 	rm -fR $(BUILD_DIR)
+
+-include $(OBJECTS:%.o=%.d)
