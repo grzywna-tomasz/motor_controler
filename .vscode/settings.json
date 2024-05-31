@@ -1,3 +1,21 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "C_Cpp.default.includePath": [
+        "stm_autogen_files/Core/Src",
+        "stm_autogen_files",
+        "stm_autogen_files/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+        "stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source",
+        "stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+        "stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source/include",
+        "stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+        "stm_autogen_files/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
+        "stm_autogen_files/Drivers/STM32F4xx_HAL_Driver/Inc",
+        "stm_autogen_files/Drivers/CMSIS/Include",
+        "stm_autogen_files/Drivers/STM32F4xx_HAL_Driver/Src",
+        "stm_autogen_files/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+        "stm_autogen_files/Core/Inc",
+    ],
+    "files.exclude": {
+        "stm_autogen_files/Drivers/CMSIS/Documentation/General/html": true,
+    },
 }
