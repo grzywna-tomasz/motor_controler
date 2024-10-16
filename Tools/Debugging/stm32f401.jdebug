@@ -22,19 +22,18 @@ void OnProjectLoad (void) {
   //
   // Dialog-generated settings
   //
-  Project.AddPathSubstitute ("C:/Users/Tomasz/Documents/motor_controler/Tools/Debugging", "$(ProjectDir)");
-  Project.AddPathSubstitute ("c:/users/tomasz/documents/motor_controler/tools/debugging", "$(ProjectDir)");
+  Project.AddPathSubstitute ("", "$(ProjectDir)");
   Project.SetDevice ("STM32F401CC");
   Project.SetHostIF ("USB", "");
   Project.SetTargetIF ("SWD");
   Project.SetTIFSpeed ("10 MHz");
   Project.AddSvdFile ("$(InstallDir)/Config/CPU/Cortex-M4F.svd");
-  Project.AddSvdFile ("C:/Users/Tomasz/Documents/motor_controler/Tools/Debugging/stm32f401.svd");
+  Project.AddSvdFile ("$(ProjectDir)/stm32f401.svd");
   //
   // User settings
   //
   Project.SetOSPlugin ("FreeRTOSPlugin_CM4");
-  File.Open ("C:/Users/Tomasz/Documents/motor_controler/Build/motor_controller.elf");
+  File.Open ("$(ProjectDir)/../../Build/motor_controller.elf");
 }
 
 /*********************************************************************
